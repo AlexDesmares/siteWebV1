@@ -1,4 +1,4 @@
 # siteWebV1
 firstWebsiteTest
 
-Porject & Repository creation on github
+Project & Repository creation on github
