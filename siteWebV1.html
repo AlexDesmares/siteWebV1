@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head><!---->
+		<meta charset="utf-8"/>
+		<title>Test Site Web ARINTECH V1</title>
+		<link rel="stylesheet" href="style.css">
+		<!--<link rel="stylesheet" media="screen and (max-width: 1280px)" href="petiteResolution.css">pour charger une feuille css spécifique au responsive-->
+	</head>
+
+	<body><!---->
+		<div id="blocPage">
+			<header><!--entete de site contenant logo et menu-->
+				<div id="titrePrincipal"><!--pour intégration logo-->
+					<div class="ensembleLogo">
+						<div class="logoSeul">
+						<img src="images/LOGO.png" alt="Arintech Logo">
+						</div>
+						<div class="texteLogo">
+						<img src="images/TITRE.png" alt="Arintech Titre">
+						<h2 class="slogan">Just Make Simple</h2>
+						</div>
+					</div>					
+				</div>
+
+				<nav><!--integration menu-->
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">ARIN</a></li>
+						<li><a href="#">Propositions</a></li>
+						<li><a href="#">Footer</a></li>
+					</ul>
+				</nav>
+
+			</header>
+
+			<section>
+				<article id="logoHome"><!--logo ARINTECH-->
+					<img src="images/LOGO.png" alt="Arintech Logo">
+				</article>
+
+				<aside id="menuLateral"><!--icon latéraux fixe meme avec le scroll-->
+					<div>
+						<img src="images/icon-home-blue.png" alt="Home">
+					</div>
+
+					<div>
+						<img src="images/user_icon_png_1449226.png" alt="User">
+					</div>
+
+					<div>
+						<img src="images/Icon_Stats_hover.svg.png" alt="Stats">
+					</div>
+
+					<div>
+						<img src="images/Share.png" alt="Share">
+					</div>
+				</aside>
+			</section>
+
+			<div class="fondViolet"><!--fond violet-->
+				<div class="textArin"><!--texte ARIN-->
+					<h1>ARIN</h1>
+					<h2>AMELIOREZ VOTRE EXPERIENCE AU QUOTIDIEN</h2>
+					<p>Lorem ipsum, Soleo saepe ante oculos ponere, idque libenter crebris usurpare sermonibus, omnis nostrorum imperatorum, omnis exterarum gentium potentissimorumque populorum, omnis clarissimorum regum res gestas, cum tuis nec contentionum magnitudine nec numero proeliorum nec varietate regionum nec celeritate conficiendi nec dissimilitudine bellorum posse conferri; nec vero disiunctissimas terras citius passibus cuiusquam potuisse peragrari, quam tuis non dicam cursibus, sed victoriis lustratae sunt.</p>
+				</div>
+			</div>
+
+			<div class="fondNoir"><!--fond noir-->
+				<div class="titreProposition"><!--titre ARINTECH propose-->
+					<h1>ARINTECH propose : ARIN</h1>
+				</div>
+
+				<div class="blocs">
+					<div class="bloc1"><!--bloc1-->
+						<h1>Voter Experience au Quotidien</h1>
+						<p>Lorem ipsum, Soleo saepe ante oculos ponere, idque libenter crebris usurpare sermonibus</p>
+					</div>
+
+					<div class="bloc2"><!--bloc2-->
+						<h1>L'Experience de la Communauté</h1>
+						<p>Omnis nostrorum imperatorum, omnis exterarum gentium potentissimorumque populorum, omnis clarissimorum</p>
+					</div>
+
+					<div class="bloc3"><!--bloc3-->
+						<h1>Le Web de Demain</h1>
+						<p>Regum res gestas, cum tuis nec contentionum magnitudine nec numero proeliorum nec varietate</p>
+					</div>
+
+					<div class="bloc4"><!--bloc4-->
+						<h1>Just Make Simple</h1>
+						<p>Regionum nec celeritate conficiendi nec dissimilitudine bellorum posse conferri nec vero disiunctissimas</p>
+					</div>
+				</div>
+			</div>
+
+			<footer><!--fond violet-->
+				<div class="reseau"><!--tweet-->
+					<h1>Sur les Réseaux</h1>
+					<p>Regionum nec celeritate conficiendi nec dissimilitudine bellorum posse conferri nec vero disiunctissimas</p>
+				</div>
+
+				<div class="photos"><!--photos-->
+					<h1>Just Make Simple</h1>
+					<p><img src="images/PAGE_3.jpg" alt="Photographie" /><img src="images/PAGE_3_a.jpg" alt="Photographie" /><img src="images/PAGE_4.jpg" alt="Photographie" /></p>
+				</div>
+
+				<div class="copyright"><!--copyright-->
+					<h1>Just Make Simple</h1>
+					<p>ARIN; Tout droits réservés</p>
+				</div>
+			</footer>
+
+			<table>
+				
+				<caption>Titre du tableau</caption>
+
+				<thead>
+					<tr>
+						<th>Sunrom</th><!--entete tableau-->
+						<th>Rôle</th>
+					</tr>
+				</thead>
+				
+				<tfoot>
+					<tr>
+						<th>1</th>
+						<th>2</th>
+					</tr>
+				</tfoot>
+
+				<tbody>
+					<tr><!--ligne-->
+						<td>Alex</td><!--colonne-->
+						<td>COO</td>
+						<td>CO-Fondateur</td>
+					</tr>
+					<tr>
+						<td>Max</td>
+						<td>CEO</td>
+						<td>CO-Fondateur</td>
+					</tr>
+					<tr>
+						<td>Mika</td>
+						<td>CFO</td>
+						<td>CO-Fondateur</td>
+					</tr>
+					<tr>
+						<td>Geoffrey</td>
+						<td colspan="2" rowspan="2">Dev</td>
+					</tr>
+					<tr>
+						<td>Kamal</td>
+					</tr>
+
+				</tbody>
+			</table>
+<!--attribut method -> facon dont les données sont envoyées-->
+<!--attribut action -> adresse de récupération des données-->
+			<form method="post" action="traitement.php">
+				<p>
+					<label for="password">Mot de passe</label>
+					<input type="password" name="password" id="password" maxlength="8">
+				</p>
+				<p>
+					<label for="pseudo">Votre pseudo</label>
+					<input type="text" name="pseudo" id="pseudo" maxlength="8" placeholder="Pseudo12"><!--value="name1" peut remplacer placeholder-->
+				</p>
+				<p>
+					<label for="commentaires">Commentaires</label>
+					<textarea rows="5" cols="100" name="commentaires" id="commentaires">Mettez vos commentaires ici</textarea>
+				</p>
+				<p>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+				</p>
+				<p>
+					<label for="url">Site web</label>
+					<input type="url" name="url" id="url">
+				</p>
+				<p>
+					<label for="tel">Numéro de téléphone</label>
+					<input type="tel" name="tel" id="tel">
+				</p>
+				<p>
+					<label for="note">Notez le site</label>
+					<input type="number" name="note" id="note" min="0" max="10" step="2">
+				</p>
+				<p>
+					<label for="volume">Volume</label>
+					<input type="range" name="volume" id="volume" min="0" max="100" step="2">
+				</p>
+				<p>
+					<label for="color">Couleur de votre inteface</label>
+					<input type="color" name="color" id="color">
+				</p>
+				<p>
+					<label for="birthday">Date de naissance</label>
+					<input type="date" name="birthday" id="birthday">
+				</p>
+				<p>
+					<label for="search">Recherchez</label>
+					<input type="search" name="search" id="search">
+				</p>
+				<p>
+					<label for="newsletter">J'accepte les newsletters</label>
+					<input type="checkbox" name="newsletter" id="newsletter" checked="true">
+				</p>
+				<p>
+					<label for="CGV">J'accepte les conditions générales de vente</label>
+					<input type="checkbox" name="CGV" id="CGV">
+				</p>
+				<p>
+				Tranche d'age
+					<input type="radio" name="age" value="-15" id="moins15"><label for="moins15">Moins de 15 ans</label>
+					<input type="radio" name="age" value="15-40" id="15-40"><label for="15-40">Entre 15 et 40 ans</label>
+					<input type="radio" name="age" value="+40" id="plus40"><label for="plus40">Plus de 40 ans</label>
+				</p>
+				<p>
+					<label for="pays">Pays</label>
+						<select name="pays" id="pays">
+							<optgroup label="Europe">
+								<option value="france">France</option>
+							</optgroup>
+							<optgroup label="Amérique du nord">
+								<option value="us" selected="true">Etats-Unis</option>
+							</optgroup>
+							<optgroup label="Asie">
+								<option value="chine">Chine</option>
+							</optgroup>
+						</select>
+				</p>
+				<fieldset>
+					<legend>Votre profil</legend>
+					<p>
+						<label for="nom">Nom</label>
+						<input type="text" name="nom" id="nom" autofocus="true" required="true">
+					</p>
+					<p>
+						<label for="prenom">Prenom</label>
+						<input type="text" name="prenom" id="prenom">
+					</p>
+
+					<input type="submit" name="Créer">
+					<input type="reset" name="reset" value="Oups, je me suis trompé partout">
+
+				</fieldset>
+			</form>
+		</div>
+
+		<audio controls="true" autoplay="true" loop="true">
+			<source src="audios/No Copyright Punk Music - No Culture.mp3" type="">
+			<source src="" type="">
+			Mettez à jour votre navigateur
+		</audio>
+
+		<video controls="true" poster="images/PAGE_4.jpg">
+			<source src="videos/PrésentationWorkshopIAV1.4.mp4" type="">
+			Mettez à jour votre navigateur
+		</video>
+
+	</body>

@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('fonts/CaviarDreams-webfont.eot');
+    src: url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-webfont.woff2') format('woff2'),
+         url('fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color: black;
+	font-family: 'caviar_dreamsregular';
+	color: #FFFFFF;
+	margin: 0;
+}
+
+#blocPage
+{
+	margin: auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#titrePrincipal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.ensembleLogo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.logoSeul
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.logoSeul img
+{
+	width: 300px;
+	height: auto;
+}
+
+.texteLogo
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.texteLogo img
+{
+	width: 150px;
+	height: auto;
+}
+
+.slogan
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-weight: 100px;
+}
+
+/*navigation*/
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	margin-top: 30px;
+}
+
+nav li
+{
+	margin-right: 20px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: white;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: with;
+	border-bottom: 3px solid with;
+}
+
+/*section1*/
+
+section
+{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+article, aside
+{
+	text-align: justify;
+}
+
+article
+{
+	margin-right: 20px;
+	flex: 5;
+}
+
+#logoHome
+{
+
+}
+
+#logoHome img
+{
+	width: 70%;
+	height: auto;
+	position: center center;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+aside
+{
+	flex: 0.5;
+	padding: 10px;
+	margin-top: 100px;
+	vertical-align: middle;
+}
+
+aside img
+{
+	width: 75px;
+	height: auto;
+	justify-content: space-around;
+	padding: 5px;
+}
+
+.fondViolet
+{
+	background-color: purple;
+	display: flex;
+}
+
+.textArin
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.titreProposition
+{
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.blocs
+{
+	display: flex;
+	padding-top: 25px;
+	justify-content: space-around;
+}
+
+.blocs p
+{
+	font-size: 1em;
+}
+
+.blocs h1;
+{
+	font-size: 1.5em;
+}
+
+.bloc1
+{
+	margin: 15px;
+	padding: 5px;
+	width: 25%;
+	border-radius: 10px;
+	background-color: #5d59c655;
+	justify-content: space-around;
+}
+
+.bloc2
+{
+	margin: 15px;
+	padding: 5px;
+	width: 25%;
+	border-radius: 10px;
+	background-color: #5d59c655;
+	justify-content: space-around;
+}
+
+.bloc3
+{
+	margin: 15px;
+	padding: 5px;
+	width: 25%;
+	border-radius: 10px;
+	background-color: #5d59c655;
+	justify-content: space-around;
+}
+
+.bloc4
+{
+	margin: 15px;
+	padding: 5px;
+	width: 25%;
+	border-radius: 10px;
+	background-color: #5d59c655;
+	justify-content: space-around;
+}
+
+footer
+{
+	display: flex;
+	background-color: purple;
+	padding-top: 25px;
+}
+
+footer p
+{
+	font-size: 0.6em;
+}
+
+footer h1
+{
+	font-size: 1em;
+}
+
+.reseau
+{
+	width: 20%;
+}
+
+.photos
+{
+	width: 60%;
+}
+
+.photos img
+{
+	width: 25%;
+	padding: 25px;
+	justify-content: center;
+}
+
+.copyright
+{
+	width: 20%;
+}
+
+td
+{
+	border: 1px solid purple;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 500px;
+	margin: 50px;
+}
+
+/*responsive design - media queries*/
+
+@media all and (max-width: 1024px)
+{
+	#blocPage
+	{
+		width: auto;
+	}
+
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		padding-left: 4px;
+	}
+
+	nav a
+	{
+		font-size: 1.1em;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+
+	#titrePrincipal
+	{
+		display: none;
+	}
+
+	section
+	{
+		flex-direction: column;
+	}
+
+	article, aside
+	{
+		width: auto;
+		margin-bottom: 15px;
+	}
+
+	#menuLateral
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
